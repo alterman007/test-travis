@@ -1,7 +1,4 @@
-function zero(flag = true) {
-  if (flag) {
-    return 0;
-  }
+function zero() {
   return Math.random();
 }
 
